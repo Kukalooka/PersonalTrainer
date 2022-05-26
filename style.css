@@ -1,0 +1,908 @@
+h1 {
+  margin: 0px;
+  height: 35px;
+}
+
+header {
+  width: 100%;
+  height: 808px;
+  background-image: url("img/4814.jpg");
+  background-position-x: center;
+  background-size: cover;
+  -webkit-clip-path: polygon(100% 0, 100% 87%, 50% 100%, 0 87%, 0 0);
+          clip-path: polygon(100% 0, 100% 87%, 50% 100%, 0 87%, 0 0);
+}
+
+header .navbarMargin {
+  margin-left: 100px;
+}
+
+header .navbarMargin a, header .navbarMargin button {
+  margin-left: 25px;
+}
+
+header .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .positionArticle {
+  height: 326px;
+  margin-left: 0px;
+  margin-top: 85px;
+}
+
+header .positionArticle article {
+  width: 462px;
+  height: 326px;
+  margin-left: 282px;
+  border-radius: 5px;
+  padding: 46px;
+}
+
+@media screen and (max-width: 409px) {
+  header .positionArticle article {
+    height: 361px;
+  }
+  header .positionArticle article h1 {
+    margin-bottom: 15px;
+  }
+}
+
+header .positionArticle article p {
+  line-height: 20px;
+  font-weight: 300;
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+header .positionArticle article p b {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+header .positionArticle article .articleTopText {
+  margin-bottom: 5px;
+}
+
+header .positionArticle article div {
+  line-height: 20px;
+  font-weight: 300;
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+header .positionArticle article .articleSecondP {
+  line-height: 23px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  header .positionArticle {
+    margin-left: 0px;
+    margin-right: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header .positionArticle article {
+    margin-left: 0px;
+  }
+}
+
+header .headerStripe {
+  height: 124px;
+  position: relative;
+  bottom: -150px;
+  -webkit-clip-path: polygon(50% 80%, 100% 0, 100% 20%, 50% 100%, 0 20%, 0 0);
+          clip-path: polygon(50% 80%, 100% 0, 100% 20%, 50% 100%, 0 20%, 0 0);
+  background: -webkit-gradient(linear, left top, right top, from(#FF00A9), color-stop(51.56%, #FF423C), to(#FF00A9));
+  background: linear-gradient(90deg, #FF00A9 0%, #FF423C 51.56%, #FF00A9 100%);
+}
+
+main .poznajMnie {
+  height: 528px;
+  background-color: white;
+}
+
+main .poznajMnie .textBox .titleDiv {
+  margin-top: 40px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FE6007), color-stop(107.81%, #FB4831));
+  background: linear-gradient(180deg, #FE6007 0%, #FB4831 107.81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+main .poznajMnie .textBox .titleDiv h2 {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+main .poznajMnie .sectButtonHolder {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 400px) {
+  main .poznajMnie .sectButtonHolder {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .poznajMnie .sectButtonHolder .socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .poznajMnie .sectButtonHolder .socials a {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  main .poznajMnie .textBox {
+    width: 547px;
+  }
+}
+
+@media screen and (max-width: 1306px) {
+  main .poznajMnie .imgBox img {
+    display: none;
+  }
+}
+
+main .triangles {
+  height: 602px;
+  background-color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  main .triangles {
+    height: 1400px;
+  }
+}
+
+main .triangles .thirdheadercont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .triangles .thirdheadercont .thirdheader {
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+main .triangles .triangleOverlay {
+  height: 49px;
+  position: relative;
+  bottom: 76px;
+  background-color: #FE3255;
+  opacity: 0.6;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .triangles .centerTriangles {
+  text-align: center;
+}
+
+main .triangles .centerTriangles .centerTrianglesActually {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .triangles .centerTriangles .smallerP {
+  font-size: 13px;
+}
+
+main .triangles .triangleUpwards {
+  -webkit-clip-path: polygon(50% 0%, 0 100%, 100% 100%);
+          clip-path: polygon(50% 0%, 0 100%, 100% 100%);
+  background: blue;
+  width: 370px;
+  height: 218px;
+}
+
+main .triangles .triangleDownwards {
+  -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+          clip-path: polygon(50% 100%, 0 0, 100% 0);
+  background: blue;
+  width: 370px;
+  height: 218px;
+}
+
+main .trophies {
+  height: 402px;
+  background-color: #E1E1E1;
+}
+
+@media screen and (max-width: 1200px) {
+  main .trophies {
+    height: 804px;
+  }
+}
+
+@media screen and (max-width: 608px) {
+  main .trophies {
+    height: 1608px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+main .trophies .fourthHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 20%;
+  text-align: center;
+}
+
+main .trophies .trophyBottom {
+  height: 15%;
+}
+
+main .trophies .trophy {
+  width: 200px;
+  height: 189px;
+}
+
+main .trophies .trophy img {
+  opacity: 0.5;
+}
+
+main .trophies .trophy .trophyText {
+  height: 135px;
+  width: 137px;
+  margin-left: 26px;
+  position: relative;
+  bottom: 161px;
+  background-color: transparent;
+}
+
+main .trophies .trophy .trophyText p {
+  color: white;
+  background-color: transparent;
+  font-style: normal;
+  letter-spacing: -0.03em;
+}
+
+main .trophies .trophy .trophyText .trophyTop {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+main .trophies .trophyBottom {
+  margin-top: 30px;
+  width: 100%;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .trophies :nth-child(2) {
+  background-color: #FF5124;
+}
+
+main .trophies :nth-child(3) {
+  background-color: #FFBB02;
+}
+
+main .trophies :nth-child(4) {
+  background-color: #FE374E;
+}
+
+main .trophies :nth-child(5) {
+  background-color: #FF9F38;
+}
+
+main .opinieGaleria {
+  height: 755px;
+  background-color: white;
+  display: block;
+}
+
+main .opinieGaleria .textGaleria {
+  height: 15%;
+  padding-top: 25px;
+}
+
+main .opinieGaleria .gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0;
+  padding: 0%;
+  height: 288px;
+  overflow-x: hidden;
+}
+
+main .opinieGaleria .gallery img {
+  height: 100%;
+  width: auto;
+}
+
+main .opinieGaleria .opinieKlientow {
+  padding-top: 30px;
+}
+
+main .opinieGaleria .opinieParagraph {
+  width: 373px;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+main .opinieGaleria .opinie {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .opinieGaleria .opinie img {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 791px) {
+  main .opinieGaleria .opinie .hideWhenTooSmall {
+    display: none;
+  }
+  main .opinieGaleria .opinie .opinieParagraph {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 474px) {
+  main .opinieGaleria .opinie img {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 474px) {
+  main .opinieGaleria {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  main .opinieGaleria .opinieKlientow {
+    padding-top: 15px;
+  }
+  main .opinieGaleria .textGaleria {
+    height: 15%;
+    padding-top: 15px;
+  }
+}
+
+main .mirror {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+main .kontaktSpace {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+main .kontaktSpace .adresyKontakt h3 {
+  margin-top: 20px;
+  color: #FF9F38;
+  margin-left: 90px;
+}
+
+main .kontaktSpace .adresyKontakt span {
+  margin-left: 110px;
+}
+
+@media screen and (max-width: 990px) {
+  main .kontaktSpace .adresyKontakt h3 {
+    margin-left: 10px;
+  }
+  main .kontaktSpace .adresyKontakt span {
+    margin-left: 15px;
+  }
+}
+
+main .kontaktSpace .zdjecieKontakt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+main .kontaktSpace .zdjecieKontakt img {
+  width: 100%;
+}
+
+@media screen and (max-width: 990px) {
+  main .kontaktSpace .zdjecieKontakt {
+    display: none;
+  }
+}
+
+main .kontaktSpace .socialsKontakt {
+  padding-top: 180px;
+  margin-left: 80px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+main .kontaktSpace .socialsKontakt .socials {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+main .kontaktSpace .socialsKontakt .socials a {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+main .kontaktSpace .socialsKontakt .msgKontakt {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 990px) {
+  main .kontaktSpace .socialsKontakt {
+    margin-left: 0px;
+  }
+  main .kontaktSpace .socialsKontakt .socials {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 429px) {
+  main .kontaktSpace .socialsKontakt {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+}
+
+footer {
+  height: 518px;
+  background-image: url("img/meghan-holmes-wy_L8W0zcpI-unsplash.jpg");
+  background-size: cover;
+}
+
+@media screen and (max-width: 804px) {
+  footer {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+
+footer .centerLine {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+footer .footHeader {
+  padding-top: 25px;
+  margin-bottom: 75px;
+}
+
+footer .footerContact {
+  margin-top: 60px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+footer .footerContact div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+footer .footerContact div img {
+  margin-right: 10px;
+}
+
+footer .footerSocials .companyStuff {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 279px;
+}
+
+footer .footerSocials .companyStuff div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FE6007), color-stop(107.81%, #FB4831));
+  background: linear-gradient(180deg, #FE6007 0%, #FB4831 107.81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+footer .footerSocials .socials {
+  margin-left: 20px;
+  margin-left: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+footer .footerSocials .przydatneLinki {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.05em;
+  width: 150px;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 1400px) {
+  footer .footerSocials .przydatneLinki {
+    margin-left: 100px;
+  }
+}
+
+footer .footerSocials .przydatneLinki h3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+footer .footerSocials .przydatneLinki a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+footer .footerSocials .przydatneLinki a :visited {
+  color: #ffffff83;
+  text-decoration: none;
+}
+
+footer .footerSocials .rockBottom {
+  color: #FFFFFF;
+  text-align: center;
+  padding-left: 11vw;
+  padding-right: 15vw;
+}
+
+@media screen and (max-width: 652px) {
+  footer {
+    text-align: center;
+  }
+  footer .companyStuff div {
+    text-align: left;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .przydatneLinki {
+    margin-top: 20px;
+  }
+}
+
+.headers {
+  text-align: center;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.kontakt {
+  margin-top: 80px;
+  margin-left: 80px;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+@media screen and (max-width: 990px) {
+  .kontakt {
+    margin-left: 10px;
+  }
+}
+
+.konText {
+  margin-top: 25px;
+  padding-left: 100px;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 990px) {
+  .konText {
+    padding-left: 15px;
+  }
+}
+
+.magentaGraident {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF00A9), to(#FE3255));
+  background: linear-gradient(180deg, #FF00A9 0%, #FE3255 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.webimpuls {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+}
+
+.navbar-nav {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slantedButton {
+  border-radius: 0%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FE6007), color-stop(107.81%, #FB4831));
+  background: linear-gradient(180deg, #FE6007 0%, #FB4831 107.81%);
+  -webkit-transform: skewX(-15deg);
+          transform: skewX(-15deg);
+  border: none;
+  height: 33px;
+}
+
+.slantedButton div {
+  -webkit-transform: skewX(15deg);
+          transform: skewX(15deg);
+}
+
+.slantedButton:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FE6007), color-stop(107.81%, #FB4831));
+  background: linear-gradient(180deg, #FE6007 0%, #FB4831 107.81%);
+  -webkit-transition: background 0.3s linear;
+  transition: background 0.3s linear;
+}
+
+.alignNext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.alignNext div {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FE6007), color-stop(107.81%, #FB4831));
+  background: linear-gradient(180deg, #FE6007 0%, #FB4831 107.81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.alignNext object {
+  fill: linear-gradient(8.48deg, #FB4831 3.32%, #FE6700 79.47%);
+  background-clip: content-box;
+}
+
+.navbar-toggler {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FE6007), color-stop(107.81%, #FB4831));
+  background: linear-gradient(180deg, #FE6007 0%, #FB4831 107.81%);
+}
+
+.textMagenta {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FE3255 !important;
+}
+
+.textMagenta:hover {
+  color: #b32039 !important;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.phone {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FE6007), color-stop(107.81%, #FB4831));
+  background: linear-gradient(180deg, #FE6007 0%, #FB4831 107.81%);
+  border: none;
+  opacity: 1 !important;
+  height: 33px;
+}
+
+.oferta {
+  height: 43px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.sectButton {
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: transparent;
+  border: 2px solid #FE6007;
+}
+
+.sectButton div {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FE6007), color-stop(107.81%, #FB4831));
+  background: linear-gradient(180deg, #FE6007 0%, #FB4831 107.81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.sectButton:hover {
+  background-color: #FE6007;
+  border: 2px solid #FE6007;
+}
+
+.sectButton:hover div {
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.form-check-input {
+  display: none;
+}
+
+.form-check-label {
+  opacity: 0.5;
+  margin-left: 7px;
+  margin-right: 7px;
+  background-color: transparent !important;
+}
+
+.form-check-input:checked + .form-check-label {
+  opacity: 1;
+}
+
+/*.headerOverride{
+    margin-top: -120px !important;
+}*/
+@media screen and (max-width: 1400px) {
+  .navbar {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container-fluid {
+    width: 100% !important;
+  }
+  .navbarMargin {
+    margin-left: 0px !important;
+    margin-right: 5px;
+  }
+  .textMagenta {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */

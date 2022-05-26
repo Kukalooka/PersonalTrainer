@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   fill="#000000"
+   viewBox="0 0 30 30"
+   width="480px"
+   height="480px"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="icons8-facebook-480.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient44">
+      <stop
+         style="stop-color:#fb4831;stop-opacity:1"
+         offset="0"
+         id="stop40" />
+      <stop
+         style="stop-color:#fe6007;stop-opacity:1"
+         offset="1"
+         id="stop42" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient44"
+       id="linearGradient46"
+       x1="13.574007"
+       y1="29.855597"
+       x2="13.465704"
+       y2="0.28880867"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.73125"
+     inkscape:cx="318.55596"
+     inkscape:cy="10.974729"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="M 27.318017,0.02888087 H 2.7902856 c -1.5057303,0 -2.72530365,1.22397933 -2.72530365,2.73514933 V 27.380375 c 0,1.51117 1.21957335,2.735148 2.72530365,2.735148 H 16.416802 V 17.807351 h -4.087954 v -4.102724 h 4.087954 v -2.203163 c 0,-4.171102 2.024902,-6.0022845 5.479224,-6.0022845 1.65426,0 2.529082,0.1230817 2.943328,0.1791523 v 3.9235717 h -2.356025 c -1.466213,0 -1.97857,0.7767825 -1.97857,2.3494925 v 1.753231 h 4.297803 l -0.583214,4.102724 h -3.714589 v 12.308172 h 6.813258 c 1.505731,0 2.725304,-1.223978 2.725304,-2.735148 V 2.7640302 c 0,-1.51117 -1.220936,-2.73514933 -2.725304,-2.73514933 z"
+     id="path2"
+     style="stroke-width:1.3651;fill-opacity:1;fill:url(#linearGradient46)" />
+</svg>
